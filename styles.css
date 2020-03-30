@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3f6f5;
+  color: #313131;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  font-family: "consolas", monospace;
+  color: #219897;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-family: "consolas", monospace;
+  color: #219897;
+  letter-spacing: -1px;
+}
