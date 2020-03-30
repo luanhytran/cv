@@ -2,21 +2,27 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <!-- utf-8 là mã chuẩn để các ký tự chữ cái hiển thị tốt-->
   <meta charset="utf-8">
+  <!-- dòng meta này để khi dùng iphone hay tablet view page sẽ được scale coi đẹp hơn chuẩn hơn-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Luan Hy's Personal Site</title>
+
+  <!-- link đến file styles.css để định dạng mặc định cho các tag -->
+  <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
   <table cellspacing="20">
     <tr>
-      <td> <img src="https://github.com/luanhytran/cv/blob/master/circle-cropped.png?raw=true" width="200" height="200">
+      <td> <img src="D:\Web Development\HTML - Personal Site\image\circle-cropped.png" width="200" height="200">
       </td>
       <td>
-        <h1>Trần Luân Hy</h1>
-        <p><em><strong>HUFLIT University</strong> Sophomore.</em></p>
-        <p>I am a <em>Sophomore</em> at <strong>HUFLIT University</strong>.
+        <h1 style="
+        color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 30px; font-weight:  bold; letter-spacing: -1px; line-height: 1;">Trần Luân Hy</h1>
+        <p style="color:#313131;font-family: Arial, Helvetica, sans-serif;"><em><strong>HUFLIT University</strong> Sophomore.</em></p>
+        <p style="color:#313131;font-family: Arial, Helvetica, sans-serif;">I am a <em>Sophomore</em> at <strong>HUFLIT University</strong>.
           I am studying <strong>Information Technology</strong>,
           and I specialize in <strong>Web Development</strong>.</p>
       </td>
@@ -26,16 +32,16 @@
   <hr>
   <h3><Strong>Education</Strong></h3>
   <ul>
-    <li><a href="http://huflit.edu.vn/">HUFLIT University</a></li>
-    <li><a href="https://www.facebook.com/thongtin.thpthv/?rf=110894762268841">THPT Hùng Vương Quận 5 TPHCM</a></li>
+    <li><a style="color:black;" href="http://huflit.edu.vn/">HUFLIT University</a></li>
+    <li><a style="color:black;" href="https://www.facebook.com/thongtin.thpthv/?rf=110894762268841">THPT Hùng Vương Quận 5 TPHCM</a></li>
   </ul>
   <hr>
   <h3><strong>Work Experience</strong></h3>
   <table cellspacing="10">
     <thead>
       <tr>
-        <td><b>Dates</b></td>
-        <td><b>Work</b></td>
+        <th><strong>Dates</strong></th>
+        <th><strong>Work</strong></th>
       </tr>
     </thead>
     <tbody>
@@ -74,10 +80,10 @@
     </tr>
   </table>
   <hr>
-  <a href="hobbies.html">
+  <a style="color:black;" href="hobbies.html">
     <h3><strong>My Hobbies</strong></h3>
   </a>
-  <a href="contact.html">
+  <a style="color:black;" href="contact.html">
     <h3><strong>Contact Me</strong></h3>
   </a>
 </body>
